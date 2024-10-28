@@ -9,7 +9,7 @@ import net.mamoe.mirai.contact.Group
 import net.mamoe.mirai.contact.Member
 import net.mamoe.mirai.contact.User
 
-class PluginCommands : CompositeCommand(
+object PluginCommands : CompositeCommand(
     JLiarsBar, "jlb", description = "J Liars Bar Commands"
 ) {
     @SubCommand
